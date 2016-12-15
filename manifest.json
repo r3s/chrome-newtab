@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "NEW TAB",
+    "description": "A simple new tab page with a WYSIWYG editor embedded.",
+    "version": "1.0",
+    "chrome_url_overrides" : {
+        "newtab": "index.html"
+    }
+ }

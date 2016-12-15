@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>New Tab</title>
+    <link type="text/css" rel="stylesheet" href="css/trix.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="js/trix.js"></script>
+  </head>
+  <body>
+    <section class="container" id="one">
+      <div id="gform">
+        <form role="search" method="get" id="searchform" class="searchform" action="https://www.google.co.in/search?sourceid=chrome&q=">
+          <label class="screen-reader-text" for="s">Google</label><br><br>
+          <input type="text" value="" name="q" id="q">
+          <input type="submit" class="btn fa-input" value="Go">
+        </div>
+      </form>
+      </div>
+    </section>
+    <section class="container">
+      <div class="editor">
+        <trix-editor class="trix-content"></trix-editor>
+      </div>
+      <div class="sites">
+        <ul>
+          <li><a href="https://www.youtube.com/">Youtube</a></li>
+          <li><a href="https://mail.google.com/">GMail</a></li>
+          <li><a href="https://news.ycombinator.com/news">Hacker News</a></li>
+          <li><a href="https://www.reddit.com/">Reddit</a></li>
+          <li><a href="https://www.reddit.com/r/reddevils">Reddit/Reddevils</a></li>
+          <li><a href="https://www.reddit.com/r/soccer">Reddit/Soccer</a></li>
+          <li><a href="https://www.reddit.com//r/documentaries">Reddit/Documentaries</a></li>
+          <li><a href="https://hangouts.google.com/">Hangouts</a></li>
+        </ul>
+      </div>
+    </section>
+    <script src="js/loadHandler.js"></script>
+  </body>
+</html>

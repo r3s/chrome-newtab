@@ -7,7 +7,7 @@ function save_sites() {
   sites.forEach(function(siteString) {
     var index = siteString.indexOf(' [');
     var title = siteString.substr(0, index);
-    var url = siteString.substr(index+2, siteString.length-2);
+    var url = siteString.substr(index+2, siteString.length-(index+3));
     sitesArray.push({title:title, url:url});
   });
   // Save the array to chrome storage
